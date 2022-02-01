@@ -1,5 +1,6 @@
-import yfinance as yf 
+import yfinance as yfi 
 
-ticker = yf.Ticker("AAPL")
+ticker = yfi.Ticker("AAPL")
 
 print(ticker.info)
+
